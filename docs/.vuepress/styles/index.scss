@@ -1,0 +1,36 @@
+
+:root {
+  //标题下方线条颜色
+  --c-border: #e8e8e8;
+  .navbar .site-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #078d6d;
+    position: relative;
+}
+  // layout vars
+  --navbar-height: 3rem;
+  --navbar-padding-v: 0.7rem;
+  --navbar-padding-h: 1.5rem;
+  --sidebar-width: 20rem;
+  --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
+  --content-width: 760px;
+  --homepage-width: 960px;
+//Search
+  --search-bg-color: #ffffff;
+  --search-accent-color: #3eaf7c;
+  --search-text-color: #2c3e50;
+  --search-border-color: #eaecef;
+
+  --search-item-text-color: #5d81a5;
+  --search-item-focus-bg-color: #f3f4f5;
+
+  --search-input-width: 10rem;
+  --search-result-width: 25rem;
+
+
+  .back-to-top {
+    --back-to-top-color: var(--c-brand);
+    --back-to-top-color-hover: var(--c-brand-light);
+  }
+}
