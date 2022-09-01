@@ -4,7 +4,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { searchPlugin } from '@vuepress/plugin-search'
-import gotop from 'vuepress-plugin-go-top'
+
 
 export default defineUserConfig({
   //站点配置
@@ -128,7 +128,6 @@ export default defineUserConfig({
         },
       },
     }),
-    gotop({}),
   
 
 
