@@ -4,14 +4,14 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { path } from '@vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { searchPlugin } from '@vuepress/plugin-search'
-import gotop from 'vuepress-plugin-go-top'
+
 
 export default defineUserConfig({
   //站点配置
   base:"/wytBlog/",
   //语言标题描述配置
   lang: 'zh-CN',
-  title: 'wyt   的知识库',
+  title: '小王的知识都在这了...',
   description: '学无止境',
   /*==============================配置主题==================================== */ 
   theme: defaultTheme({
@@ -51,7 +51,7 @@ export default defineUserConfig({
         {
           text: '语言',
           //collapsible: true,
-          children: ['JavaScript.md', 'ES6.md','TypeScript.md','jQuery.md'],
+          children: ['JavaScript','手写JS系列.md', 'ES6.md','TypeScript.md','jQuery.md'],
         },
         {
           text: '数据结构与算法',
@@ -128,7 +128,6 @@ export default defineUserConfig({
         },
       },
     }),
-    gotop({}),
   
 
 
