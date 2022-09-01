@@ -31,9 +31,9 @@ sidebarDepth: 1
 
 ## 实现功能
 
-<div align=center><img src="./../.vuepress/public/images/Project/功能概述.png" width="800"></div><br>
+<div style="align:center"><img src="./../.vuepress/public/images/Project/功能概述.png" width="800"></div><br>
 
-<div align=center><img src="./../.vuepress/public/images/Project/总体流程图.png" width="800"></div><br>
+<div style="align:center"><img src="./../.vuepress/public/images/Project/总体流程图.png" width="800"></div><br>
 
 
 
@@ -50,7 +50,7 @@ sidebarDepth: 1
 :::  
 
 
-<div align=center><img src="./../.vuepress/public/images/Project/photodemo1.gif" width="800"></div><br>
+<div style="align:center"><img src="./../.vuepress/public/images/Project/photodemo1.gif" width="800"></div><br>
 
 
 
@@ -65,7 +65,7 @@ sidebarDepth: 1
 
 
 
-<div align=center><img src="./../.vuepress/public/images/Project/photodemo2.gif" width="800"></div><br>
+<div style="align:center"><img src="./../.vuepress/public/images/Project/photodemo2.gif" width="800"></div><br>
 
 
 ::: tip 后台管理
@@ -80,7 +80,7 @@ sidebarDepth: 1
 :::
 
 
-<div align=center><img src="./../.vuepress/public/images/Project/photodemo3.gif" width="800"></div><br>
+<div style="align:center"><img src="./../.vuepress/public/images/Project/photodemo3.gif" width="800"></div><br>
 
 
 
