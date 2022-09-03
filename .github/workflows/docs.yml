@@ -52,6 +52,6 @@ jobs:
           target_branch: gh-pages
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
-          # 默认即可，不用更改 @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
-        env:        
+        env:      
+        #前面的GITHUB_TOKEN：不能改，后面的GITHUB＿TOKEN改为自己设置的ACCESS＿TOKEN
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
