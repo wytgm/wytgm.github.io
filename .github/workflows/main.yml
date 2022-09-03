@@ -54,4 +54,4 @@ jobs:
           build_dir: docs/.vuepress/dist
           # 默认即可，不用更改 @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
         env:        
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
