@@ -53,5 +53,5 @@ jobs:
           # 部署目录为 VuePress 的默认输出目录
           build_dir: docs/.vuepress/dist
         env:      
-        #前面的GITHUB_TOKEN：不能改，后面的GITHUB＿TOKEN改为自己设置的ACCESS＿TOKEN
+        # 前面的GITHUB_TOKEN：不能改，后面的GITHUB＿TOKEN改为自己设置的ACCESS＿TOKEN
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
